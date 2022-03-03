@@ -4,11 +4,6 @@ let logo= document.createElement('img');
 logo.src="https://cdn3.vectorstock.com/i/thumb-large/19/77/isolated-abstract-blue-color-thumb-up-contour-logo-vector-10861977.jpg";
 document.getElementById("logo").appendChild(logo);
 
-let count = 0;
-logo.addEventListener("click", ()=>{
-        window.location.href="../index.html";
-})
-
 let input1= document.createElement("input");
 input1.placeholder="Title";
 input1.type="text";
